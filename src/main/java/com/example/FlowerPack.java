@@ -4,8 +4,8 @@ public class FlowerPack {
     private Flower flower;
     private int count;
 
-    public FlowerPack(Flower new_flower, int number) {
-        this.flower = new_flower;
+    public FlowerPack(Flower newFlower, int number) {
+        this.flower = newFlower;
         this.count = number;
     }
 

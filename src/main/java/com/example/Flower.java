@@ -10,5 +10,5 @@ public class Flower {
     private double sepalLength;
     private double price;
     private FlowerColor color;
-    private FlowerType flowertype;
+    private FlowerType flowerType;
 }

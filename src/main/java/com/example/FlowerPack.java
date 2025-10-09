@@ -1,8 +1,8 @@
 package com.example;
 
 public class FlowerPack {
-    private Flower flower;
-    private int count;
+    private final Flower flower;
+    private final int count;
 
     public FlowerPack(Flower newFlower, int number) {
         this.flower = newFlower;

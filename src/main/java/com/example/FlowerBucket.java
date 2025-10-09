@@ -10,7 +10,7 @@ public class FlowerBucket {
     }
     public double price() {
         double totalSum = 0;
-        for(FlowerPack ourPack: flowerPacks) {
+        for (FlowerPack ourPack: flowerPacks) {
             totalSum += ourPack.getPrice();
         }
         return totalSum;

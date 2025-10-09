@@ -11,8 +11,8 @@ public class Store {
     }
     public List<FlowerBucket> search(double somePrice) {
         List<FlowerBucket> searchedBuckets = new ArrayList<>();
-        for(FlowerBucket bucket: flowerBuckets) {
-            if(bucket.price() <= somePrice) {
+        for (FlowerBucket bucket: flowerBuckets) {
+            if (bucket.price() <= somePrice) {
                 searchedBuckets.add(bucket);
             }
         }
